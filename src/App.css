@@ -1,0 +1,71 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('image.jpg');
+  background-size:cover;
+
+  
+}
+
+/* Style the header */
+.App-header {
+  background-color:#0469ad; /* Header background color */
+  color: black; /* Header text color */
+  text-align: center;
+  padding: 20px;
+}
+
+/* Style the main content container */
+.App-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 76vh; 
+  
+}
+
+/* Style the login form */
+.App-container .LoginForm {
+  margin-right: 20px; /* Add some spacing between components */
+  padding: 20px;
+  background-color: #fff; /* Login form background color */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the WeatherDisplay component */
+.App-container .WeatherDisplay {
+  padding: 20px;
+  background-color: #fff; /* Weather display background color */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the search input and button */
+.App-container input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.App-container button {
+  padding: 10px 20px;
+  background-color: #333; /* Button background color */
+  color: white; /* Button text color */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.App-footer {
+  background-color:#0469ad ; 
+  color: black;
+  text-align: center;
+  padding: 5px;
+  margin:0px;
+}

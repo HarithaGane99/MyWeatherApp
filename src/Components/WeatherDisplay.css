@@ -1,0 +1,28 @@
+/* WeatherDisplay.css */
+
+/* Style the weather display component */
+.WeatherDisplay {
+    padding: 20px;
+    background-color: #fff; /* Weather display background color */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the search input and button */
+  .WeatherDisplay input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .WeatherDisplay button {
+    padding: 10px 20px;
+    background-color: #333; /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
